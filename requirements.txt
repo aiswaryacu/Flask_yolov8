@@ -1,0 +1,8 @@
+# Ultralytics requirements
+# Usage: pip install -r requirements.txt
+
+# Base ----------------------------------------
+ultralytics
+flask
+opencv-python
+pymongo
