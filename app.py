@@ -55,7 +55,7 @@ def generate_frames_web(videosource):
 
 @app.route('/video')
 def video():
-    videosource="datasets/3.mp4"
+    videosource="datasets/demo.mp4"
     #return frames to display on webpage
     return Response(generate_frames_web(videosource),mimetype='multipart/x-mixed-replace; boundary=frame')
 
